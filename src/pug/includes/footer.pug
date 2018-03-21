@@ -1,0 +1,14 @@
+footer.footer
+    .footer__contact
+        .footer__inf Информация по телефону
+        .footer__tell +38 063 587 95 65
+    .modal_overlay
+    #call_back.wr-call-back.modal_div
+        .form-title Обратная связь
+        form(action="handlerform.php" method="POST")
+            .wr-input
+                input(type="text", name="name", placeholder="Ваше имя")
+            .wr-input
+                input(type="text", name="phone", placeholder="Введите ваш номер")
+            input(type='hidden' name="spam")
+            button.button_blue Отправить

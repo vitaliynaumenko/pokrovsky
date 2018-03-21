@@ -1,0 +1,12 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+
+@import 'core/vars';
+@import 'core/mixins';
+@import 'core/common';
+@import 'core/user_text';
+
+
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/homepage';
